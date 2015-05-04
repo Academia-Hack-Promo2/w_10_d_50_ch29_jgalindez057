@@ -1,0 +1,158 @@
+.navbar{
+	background-color: #3ea9f5;
+	border: none;
+	height: 75px;
+	  padding-top: 8px;
+	    box-shadow: 0px 1px 10px rgba(0,0,0,0.3);
+}
+
+.navbar-inverse .navbar-nav>li>a {
+	color:#000;
+	font-size: 18px;
+	  -webkit-transition: all 500ms ease;
+  -moz-transition: all 500ms ease;
+  -ms-transition: all 500ms ease;
+  -o-transition: all 500ms ease;
+  transition: all 500ms ease;
+	border-bottom: 2px solid #3ea9f5;
+    font-family: 'playregular';
+}
+
+.navbar-inverse .navbar-nav>li>a:hover{
+	color:#fff;
+		border-bottom: 2px solid #fff;
+}
+
+.imges{
+	background: url(../img/monster_hunter_freedom_2_conceptart_ufpj2.jpg) no-repeat center center;
+		padding-top: 280px; /* If you're making other pages, make sure there is 50px of padding to make sure the navbar doesn't overlap content! */
+	padding-bottom: 280px;
+		background-size: cover;
+}
+
+.imges2{
+	background: url(../img/samurai-vs-dinosaurs.jpg) no-repeat center center;
+		padding-top: 280px; /* If you're making other pages, make sure there is 50px of padding to make sure the navbar doesn't overlap content! */
+	padding-bottom: 280px;
+		background-size: cover;
+}
+
+.imges4{
+	background: url(../img/Epic-Ninja-Game.jpg) no-repeat center center;
+		padding-top: 290px; /* If you're making other pages, make sure there is 50px of padding to make sure the navbar doesn't overlap content! */
+	padding-bottom: 363px;
+		background-size: cover;
+}
+
+.ninja{
+		position: relative;
+	top:-70px;
+	font-family: 'kaushan_scriptregular';
+	color: #fff;
+	font-size: 50px;
+}
+.vs{
+		position: relative;
+	top:-70px;
+	    font-family: 'playregular';
+	color: #fff;
+	font-size: 50px;
+}
+.dino{
+	position: relative;
+	top:-70px;
+	font-size: 50px;
+	    font-family: 'capture_itregular';
+	color: #fff;
+}
+
+.move-up{
+	    font-family: 'playregular';
+	font-size: 20px;
+	border-radius: 5px;
+	color: #fff;
+	height: 50px;
+	background-color: #1F201C;
+	width: 300px;
+	position: relative;
+	top:-60px;
+	border:none;
+	border-bottom: 3px solid #fff;
+	  -webkit-transition: all 500ms ease;
+  -moz-transition: all 500ms ease;
+  -ms-transition: all 500ms ease;
+  -o-transition: all 500ms ease;
+  transition: all 500ms ease;
+}
+
+.move-up:hover{
+	background-color: #161713;
+	border-bottom: 2px solid #fff;
+}
+
+#factions{
+	padding: 30px 40px 40px 0;
+	background-color: #1F201C;
+}
+
+h2{
+	    font-family: 'playregular';
+	    color:#fff;
+	    font-size: 45px;
+}
+
+
+.hr{
+	width: 200px;
+	border: 1px solid #3ea9f5;
+}
+
+p{
+	color: #fff;
+	font-family: 'open_sansregular';
+}
+
+
+
+.ninja2{
+	font-family: 'kaushan_scriptregular';
+	color: #fff;
+	font-size: 50px;
+} 
+.dino2{
+	font-size: 50px;
+	    font-family: 'capture_itregular';
+	color: #fff;
+}
+
+
+#armaduras{
+	padding: 30px 40px 40px 0;
+	background-color: #3ea9f5;
+}
+
+.hr2{
+	width: 250px;
+	border: 1px solid #fff;
+}
+
+i{
+	font-size: 90px;
+	color:#1F201C;
+}
+
+.tamano_icon{
+	font-size: 180px;
+}
+
+
+#fight{
+	padding: 30px 40px 40px 0;
+	background-color: #1F201C;
+}
+
+#fight h3, h4{
+		    font-family: 'playregular';
+	padding: 10px;
+	color:#fff;
+}

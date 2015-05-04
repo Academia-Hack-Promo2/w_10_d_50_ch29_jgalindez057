@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<meta charset="UTF-8">
+		<title>Home</title>
+		<link rel="stylesheet" href="css/jquery.bxslider.css">
+		<link rel="stylesheet" href="css/bootstrap.min.css">
+		<link rel="stylesheet" href="css/style.css">
+		<link rel="stylesheet" href="fonts/stylesheet.css">
+	</head>
+	<body>
+		
+		<ul style="padding-left:0px" class="bxslider">
+			<li>
+				<div class="imges text-center">
+					<span class="ninja">Ninjas</span>
+					<h2 class="vs">vs</h2>
+					<span class="dino">Dinosaurios</span><br>
+					<a href="play.html"><button type="button" class="move-up">Click here to fight !</button></a>
+				</div>
+			</li>
+			<li>
+				<div class="imges2 text-center">
+					<span class="ninja">Ninjas</span>
+					<h2 class="vs">vs</h2>
+					<span class="dino">Dinosaurios</span><br>
+					<a href="play.html"><button type="button" class="move-up">Click here to fight !</button></a>
+				</div>
+			</li>
+			<li>
+				<div class="imges4 text-center">
+					<span class="ninja">Ninjas</span>
+					<h2 class="vs">vs</h2>
+					<span class="dino">Dinosaurios</span><br>
+					<a href="play.html"><button type="button" class="move-up">Click here to fight !</button></a>
+				</div>
+			</li>
+		</ul>
+		<a href="play.html">Here</a>
+		<script src="objects/jquery-2.1.1.min.js"></script>
+		<script src="objects/jquery.bxslider.min.js"></script>
+		<script>
+		$(document).ready(function(){
+		$('.bxslider').bxSlider({
+			auto: true,
+			mode: 'fade'
+		});
+		});
+		</script>
+	</body>
+</html>
